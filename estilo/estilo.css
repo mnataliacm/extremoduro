@@ -349,7 +349,7 @@ footer .fa {
     #inicio {width: 50%;}
     #portada {width: 50%;}
     #grupoo {width: 50%;}
-    #historia {width: 50%; text-align: left;}
+    #historia {width: 70%; text-align: left;}
     #frase {width: 30%; margin: 3%;}
     #pie {width: 50%;}
     .grid-3 {grid-template-columns: 50% 50%;}
