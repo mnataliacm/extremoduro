@@ -360,7 +360,7 @@ footer .fa {
 
     #inicio {width:100%}
     #portada {width: 100%;}
-    #historia {width: 78%; text-align: left;}
+    #historia {width: 78%; text-align: left; margin: auto;}
     #grupoo {width: 90%;}
     #frase {width: 90%;}
     #pie {width: 100%;}
