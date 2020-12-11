@@ -344,12 +344,12 @@ footer .fa {
   padding-top: 56.25%;
 }
 
-@media only screen and (max-width:500px){
+@media only screen and (max-width:900px){
 
     #inicio {width: 50%;}
     #portada {width: 50%;}
     #grupoo {width: 50%;}
-    #historia {width: 50%; text-align: left; margin: 3%;}
+    #historia {width: 50%; text-align: left;}
     #frase {width: 30%; margin: 3%;}
     #pie {width: 50%;}
     .grid-3 {grid-template-columns: 50% 50%;}
@@ -360,7 +360,7 @@ footer .fa {
 
     #inicio {width:100%}
     #portada {width: 100%;}
-    #historia {width: 80%; text-align: left; margin: 3%;}
+    #historia {width: 79.5%; text-align: left;}
     #grupoo {width: 90%;}
     #frase {width: 90%;}
     #pie {width: 100%;}
