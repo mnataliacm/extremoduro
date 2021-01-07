@@ -19,11 +19,20 @@ body {
     font-family:parrafos;}
 pre {font-family: parrafos; font-size: 1.5em;}
 
+h1 {
+    font-size: 2em;
+    color: black;
+    text-align: center;
+    letter-spacing: 5px;
+    background-color:black;
+}
+/*
 #container{
     background-color: rgb(62, 66, 173);
     width:90%;
     margin: auto;
 }
+*/
 /*Estilo barra de navegación (responsive topnav)*/
 nav {
     position: -webkit-sticky;
@@ -75,11 +84,11 @@ nav {
 }
 /*Hero section*/
 #inicio {
-    background-image: url("../imagenes/2.png");
+    background-image: url("../imagenes/5.png");
     position: relative;
     background-repeat: repeat;
     background-position: center;
-    height: 15vh;
+    height: 23vh;
 }
 
 #portada {
@@ -87,8 +96,7 @@ nav {
     position: relative;
     background-size: cover;
     background-position:center;
-    height: 100vh;
-
+    height: 80vh;
 }
 #portada h1 {
     position: absolute;
@@ -114,17 +122,20 @@ nav {
 
 /*Frase1 section*/
 #grupoo {
+    background-color: mediumorchid;
     color: black;
     font-size: 2em;
     text-align: left;
-    width: 40%;
-    margin: 50px auto;
+    width: 90%;
+    margin: auto;
+    padding: 5%;
     border-top: 4px solid purple;
     border-bottom: 4px solid purple;
 }
 #grupoo h5 {
     font-size: 1em;
     text-align: right;
+    padding-right: 5%;
 }
 #grupoo #grupo {
     margin-top: 2%;
@@ -137,43 +148,50 @@ nav {
     color: white;
     text-align: center;
     letter-spacing: 5px;
-    background-color:rebeccapurple;
+    background-color:black;
+    padding: 1%;
 }
 #historia {
     font-size: 1.5em;
     color: white;
-    padding: 40px;
-    background-color: rebeccapurple;
+    padding: 5%;
+    width: 90%;
+    background-color: rgb(128, 7, 250);
     text-align: justify;
 }
 /*Frase 2 section*/
 #frase {
+    background-color: mediumorchid;
     color: black;
     font-size: 2em;
     text-align: left;
-    width: 40%;
-    margin: 50px auto;
-    border-top: 4px solid purple;
-    border-bottom: 4px solid purple;
+    width: 90%;
+    margin: auto;
+    padding: 5%;
+    border-top: 4px solid rgb(248, 5, 245);
+    border-bottom: 4px solid rgb(248, 5, 245);
 }
 #frase h5 {
     font-size: 1em;
     text-align: right;
+    padding-right: 5%;
 }
 /* haciendo cards */
 #music {
-    background-color: rebeccapurple;
+    background-color: black;
     font-size: 2em;
     color: white;
     text-align: center;
     letter-spacing: 5px;
+    padding: 1%;
 }
 
 #letras {
-    background-color: rebeccapurple;
+    background-color: rgb(166, 86, 247);
 }
 
-.grid-4 {display:grid;   /* esto es lo que hace la división por cuadrículas */
+.grid-4 {
+    display:grid;   /* esto es lo que hace la división por cuadrículas */
     grid-template-columns:auto auto auto auto;/* 4 columnas de igual tamaño */
     }
 
@@ -203,6 +221,13 @@ nav {
     margin:auto;
 }
 .item-grid-4 button:hover {background-color:purple;}
+
+@media only screen and (max-width: 1100px) {
+    .grid-4 {grid-template-columns:auto auto;}
+}
+@media only screen and (max-width: 500px) {
+    .grid-4 {grid-template-columns:auto;}
+}
 
 .modal {
     display: none; /* Hidden by default */
@@ -242,7 +267,7 @@ nav {
     text-decoration: none;
     cursor: pointer;
 }
-
+#galeria {background-color: mediumorchid;}
 #galeria .row .column {box-sizing:border-box;}
 .row {
     display: flex;
@@ -254,25 +279,28 @@ nav {
     color: white;
     text-align: center;
     letter-spacing: 5px;
-    background-color: rebeccapurple;
+    background-color: rgb(0, 0, 0);
+    padding: 2%;
+    margin: auto;
 }
 .column {
     flex: 25%;
     max-width: 25%;
-    padding: 0px 4px;
+    padding: 2px 4px;
 }
 .column img {
-    margin-top: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     vertical-align: middle;
     width: 100%;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
     .column {
         flex: 50%;
         max-width: 50%;}
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     .column {
         flex: 100%;
         max-width: 100%;}
@@ -282,23 +310,22 @@ nav {
     color: white;
     text-align: center;
     letter-spacing: 5px;
-    background-color:rebeccapurple;
+    background-color:black;
+    margin: auto;
+    padding: 2%;
 }
 #pie {
     background-image: url('../imagenes/Poster-Extremoduro.png');
     position: relative;
     background-size: cover;
     background-position:center;
-    height: 70vh;
-    margin-top: 10px;
+    height: 60vh;
 }
 
-footer {background-color: rgb(62, 66, 173); font-size: 1em;}
+footer {background-color: mediumorchid; font-size: 1em;}
 .grid-2{display:grid;
         grid-template-columns: auto auto;
-        margin-top: 10px;
-    
-        }
+}
 .item-grid-2 {
         padding:15px;
 }
@@ -318,7 +345,7 @@ footer .fa {
 }
 
 .fa-facebook {
-  background: #3B5998;
+  background: #0034a3;
   color: white;
 }
 
@@ -352,8 +379,8 @@ footer .fa {
     #historia {width: 70%; text-align: left;}
     #frase {width: 30%; margin: 3%;}
     #pie {width: 50%;}
-    .grid-3 {grid-template-columns: 50% 50%;}
-    .grid-4 {grid-template-columns: 50% 50%;}
+    .grid-2 {grid-template-columns: 50% 50%;}
+    .grid-4 {grid-template-columns: auto auto;}
 }
 
 @media only screen and (max-width:900px){
@@ -365,6 +392,6 @@ footer .fa {
     #frase {width: 90%;}
     #pie {width: 100%;}
     .grid-4 {grid-template-columns: 100%;}
-    .grid-3 {grid-template-columns: 100%;}
+    .grid-2 {grid-template-columns: auto auto;}
 }
 
