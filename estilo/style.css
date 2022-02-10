@@ -1,0 +1,23 @@
+/*Añado fuentes*/
+@font-face {
+  font-family: 'rota';
+  src: url('../fuentes/Typoster\ ROCK-ON\ Shadowed\ Demo.otf');
+}
+@font-face {
+  font-family: 'parrafos';
+  src: url('../fuentes/hemi\ head\ bd\ it.ttf');
+}
+h1 {font-family: rota;}
+body {font-family: parrafos;}
+pre {font-family: parrafos;}
+
+
+
+
+/*colores extras*/
+.bg-purpura1 {background-color: #270858;}
+.bg-purpura2 {background-color: #6610f2;}
+.bg-morado {background-color: #8f11a0;}
+
+
+
