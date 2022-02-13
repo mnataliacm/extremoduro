@@ -1,4 +1,4 @@
-/*Añado fuentes*/
+/*Añado y uso fuentes*/
 @font-face {
   font-family: 'rota';
   src: url('../fuentes/Typoster\ ROCK-ON\ Shadowed\ Demo.otf');
@@ -7,12 +7,10 @@
   font-family: 'parrafos';
   src: url('../fuentes/hemi\ head\ bd\ it.ttf');
 }
+
 h1 {font-family: rota;}
 body {font-family: parrafos;}
 pre {font-family: parrafos;}
-
-
-
 
 /*colores extras*/
 .bg-purpura1 {background-color: #270858;}
